@@ -1,0 +1,115 @@
+* { 
+    margin:0;
+    padding:0;
+    font-family: "Montserrat", sans-serif;
+  }
+  a:link, a:visited, a:hover, a:active {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+
+  }
+  html {
+    background: linear-gradient(to right, rgb(134, 70, 156), rgb(188, 127, 205));
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+  }
+  h1 {
+    color:rgb(66, 3, 108);
+    font-size:1.8em;
+    padding-bottom:.5em; 
+  }
+  img {
+    height:auto;
+    margin-bottom:.5em;
+    margin-top:.2em;
+    max-width:100%;
+  
+  }
+  li {
+    margin-left:1.3em;
+    padding-bottom:.3em;
+    list-style:none;
+    font-size: 20px;
+    text-decoration: none; 
+    padding-right:.2em;
+
+
+  }
+  p {
+    font-size:1em;
+    padding-bottom:.5em;
+    text-decoration: none; 
+  }
+  #cabecera {
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+    color:rgb(255, 255, 255);
+    font-size:30px;
+    padding:2%;
+    width: 60%;
+    font-weight: bold;
+  }
+  #cabecera i{
+    font-size: 70px;
+    cursor: pointer;
+  }
+  #columnas {
+    background-color:#ddd;
+    overflow:hidden;
+    padding-bottom:2%;
+
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  #contenedor {
+    margin:10px auto;
+    width:95%;
+  
+  }
+  #contenido {
+    background-color:rgb(214, 185, 237);
+    float:left;
+    margin-bottom:-32767px;
+    max-width:-moz-calc(92% - 120px);
+    max-width:-webkit-calc(92% - 120px);
+    max-width:calc(92% - 120px);
+    padding:2%;
+    padding-bottom:32767px;
+    width:71%;
+    overflow-y: scroll; 
+  }
+  #contenido::-webkit-scrollbar {
+    width: 8px;
+    background: #ffe2f9;
+    border-radius: 4px 8px 8px 4px;
+  }
+  #contenido::-webkit-scrollbar-thumb {
+    background: #f9bcfa;
+    cursor: pointer;
+    border-radius: 4px  8px 8px 4px ;
+  }
+  .menu {
+    background:rgb(161, 126, 184);
+    float:left;
+    margin-bottom:-32767px;
+    min-width: 120px;
+    padding:2%;
+    padding-bottom:32767px;
+    width:21%;
+  }
+  #pie { 
+    background-color:rgba(0, 0, 0, 0.149);
+    clear:both;
+    color:rgb(222, 172, 255);
+    padding:2%;
+    text-align:center;
+  }
+  #pie p{
+    font-size: 20px;
+    font-weight: bold; 
+  }
