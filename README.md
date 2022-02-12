@@ -16,6 +16,7 @@
     <div id="contenedor">
       <div id="cabecera">
         <div>
+           <a href="dosColumnas.html">         <img src="Raton.png" width="150" height="150"></a>
           <a href="dosColumnas.html"><i class='bx bxl-medium-square'></i></a>
         
       </div>
