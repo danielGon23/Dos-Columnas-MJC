@@ -1,5 +1,4 @@
-# Dos-Columnas-MJC
-Trabajo dos columnas [Monserrat Cerrito Jimenez]
+
 <!DOCTYPE html>
 <html lang="es-ES">
   <head>
